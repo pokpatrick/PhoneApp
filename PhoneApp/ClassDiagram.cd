@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="PhoneApp.Model.AuthenticationProcess">
+    <Position X="22" Y="6.75" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAgAESBAgAAAAAACAABAAABAgQBCJAAAgAA=</HashCode>
+      <FileName>Model\AuthenticationProcess.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AuthResult" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PhoneApp.Model.AuthResult">
+    <Position X="18.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAIAAAAABAAAAAAAAEAAAAAAAAAAgCAAAAAQAA=</HashCode>
+      <FileName>Model\AuthResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.CalendarComponent">
+    <Position X="11.25" Y="4.25" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CUAEAAQAAMAJGOAAgIAQAIACAkAAQAEEwAAQkCAAAAk=</HashCode>
+      <FileName>Model\CalendarComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Colors" />
+      <Property Name="Calendar" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Events" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PhoneApp.Model.OAuth">
+    <Position X="25.75" Y="12.75" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>KAgEBEABICgALABkAAggAAqCAMgAAABEQAgACAAgAAE=</HashCode>
+      <FileName>Model\OAuth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.TaskComponent">
+    <Position X="25.5" Y="20" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PhoneApp.Model.TaskComponent.MyContractResolver" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\TaskComponent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAgEAABAAAAACGAAAAIAAIQCAFiAACACQgAYAAlAAEk=</HashCode>
+      <FileName>Model\TaskComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TaskLists" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PhoneApp.Model.Tools">
+    <Position X="22" Y="3.75" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAgAAAABAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.CalendarList">
+    <Position X="7" Y="7.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAiAAAEAAAAAAAABBAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Model\Calendar\CalendarList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.CalendarListEntry">
+    <Position X="6.75" Y="2" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACCCAAQQEJgAAAFMAZABAAACABBgAEAACAAAABEAiI=</HashCode>
+      <FileName>Model\Calendar\CalendarListEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.ColorDefinition">
+    <Position X="18" Y="14.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>Model\Calendar\ColorDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.Colors">
+    <Position X="17.5" Y="9" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PhoneApp.Model.Data.Colors.CalendarData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Colors.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Colors.EventData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Colors.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAABAAAAAFAAAAAAAAgBAAAAEQAAAEAAAAAg=</HashCode>
+      <FileName>Model\Calendar\Colors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.Error">
+    <Position X="21" Y="14.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAIAAAAAAAAAAgAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Model\Calendar\Error.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.Event" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="10" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PhoneApp.Model.Data.Event.Transparencies" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.Visibilities" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.Statuses" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Methods" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.CreatorData">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.ExtendedPropertiesData" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="PhoneApp.Model.Data.Event.ExtendedPropertiesData.PrivateData" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+          <Class Name="PhoneApp.Model.Data.Event.ExtendedPropertiesData.SharedData" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.GadgetData" Collapsed="true">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="PhoneApp.Model.Data.Event.GadgetData.PreferencesData" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.OrganizerData">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Event.RemindersData">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Calendar\Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QEKSGMAkoGjogBREcCJkBlBDwELJykQg+CBAoIcACAA=</HashCode>
+      <FileName>Model\Calendar\Event.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OriginalStartTime" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Attendees" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PhoneApp.Model.Data.EventAttendee">
+    <Position X="12.75" Y="16.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAADEAAEMCAABAgAAIBBAAQAAAAIAAAAKAIAAAQAAAU=</HashCode>
+      <FileName>Model\Calendar\EventAttendee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.EventDateTime">
+    <Position X="12" Y="14.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAAAAABAAABAAAAAAAAAQBAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Calendar\EventDateTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.EventReminder">
+    <Position X="14.75" Y="14.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAQABgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Calendar\EventReminder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.Events">
+    <Position X="12.25" Y="10.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAEAAQAEJgiAAFMAAABAAAABBAgAAAQIAAAAAAAgA=</HashCode>
+      <FileName>Model\Calendar\Events.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="DefaultReminders" />
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.TimePeriod">
+    <Position X="16.75" Y="17.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Model\Calendar\TimePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.Task" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="17" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PhoneApp.Model.Data.Task.Statuses">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Task\Task.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PhoneApp.Model.Data.Task.LinksData">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Task\Task.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AMAyEAAMAMhAAE4glgBAUhEQgIBAABAASAAAiAAEACA=</HashCode>
+      <FileName>Model\Task\Task.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PhoneApp.Model.Data.TaskList" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="24.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACEAAIAMhAAEAAEgBAAAAAgABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Model\Task\TaskList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PhoneApp.Model.Data.TaskLists">
+    <Position X="13" Y="21.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAiAAAEAAAAAAAABBAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Model\Task\TaskLists.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PhoneApp.Model.Data.Tasks">
+    <Position X="16.5" Y="21" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAiAAAEAAAAAAAABBAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Model\Task\Tasks.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
